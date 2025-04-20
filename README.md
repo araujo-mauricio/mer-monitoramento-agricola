@@ -1,8 +1,8 @@
 # Projeto: Sistema de Monitoramento Inteligente de Plantacao
-**Responsavel:** Mauricio Araujo/ Igor Herson
+**Responsavel:** Mauricio Araujo/ Igor Herson 
 **RM:** 566040/ 
-**Fase:** 2
-**Capitulo:** 1
+**Fase:** 2 
+**Capitulo:** 1 
 
 ---
 
