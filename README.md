@@ -2,7 +2,6 @@
 **Responsavel:** Mauricio Araujo  / Igor Herson
 **RM:** 566040  / 
 **Fase:** 2  
-**Capitulo:** 1
 
 ---
 
