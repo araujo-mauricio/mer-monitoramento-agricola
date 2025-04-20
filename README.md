@@ -1,18 +1,18 @@
 # Projeto: Sistema de Monitoramento Inteligente de Plantacao
 **Responsavel:** Mauricio Araujo  / Igor Herson
-**RM:** 566040  
+**RM:** 566040  / 
 **Fase:** 2  
 **Capitulo:** 1
 
 ---
 
-## 🌾 Descricao do Projeto
+## Descricao do Projeto
 
 Este projeto simula um sistema de monitoramento agricola inteligente para a **FarmTech Solutions**, voltado à coleta e analise de dados em plantacoes atraves de sensores. A solucao busca armazenar os dados dos sensores e aplicar ajustes automatizados de irrigacao e aplicacao de nutrientes, com base nas leituras recebidas.
 
 ---
 
-## 🎯 Objetivo
+## Objetivo
 
 Modelar o **MER (Modelo Entidade-Relacionamento)** de um banco de dados relacional capaz de:
 
@@ -22,9 +22,9 @@ Modelar o **MER (Modelo Entidade-Relacionamento)** de um banco de dados relacion
 
 ---
 
-## 🧱 Entidades e Atributos
+## Entidades e Atributos
 
-### 🔹 Sensor
+### Sensor
 
 Armazena os tipos de sensores utilizados no campo.
 
@@ -35,7 +35,7 @@ Armazena os tipos de sensores utilizados no campo.
 | `modelo`         | varchar  | Modelo do sensor                                 |
 | `unidade_medida` | varchar  | Unidade utilizada (%, pH, mg/kg, °C, etc.)       |
 
-### 🔹 Leitura
+### Leitura
 
 Armazena as leituras geradas por cada sensor.
 
@@ -46,7 +46,7 @@ Armazena as leituras geradas por cada sensor.
 | `data_hora`  | datetime | Data e hora da leitura          |
 | `valor`      | double   | Valor da medicao registrada     |
 
-### 🔹 Cultura
+### Cultura
 
 Define o tipo de cultivo realizado.
 
@@ -56,7 +56,7 @@ Define o tipo de cultivo realizado.
 | `nome`       | varchar  | Nome da cultura (ex: soja, cafe)       |
 | `tipo`       | varchar  | Tipo: leguminosa, cereal, tuberculo... |
 
-### 🔹 Produtor
+### Produtor
 
 Armazena os dados do responsavel pela plantacao.
 
@@ -67,7 +67,7 @@ Armazena os dados do responsavel pela plantacao.
 | `email`       | varchar  | E-mail                    |
 | `telefone`    | varchar  | Contato telefonico        |
 
-### 🔹 Plantacao
+### Plantacao
 
 Representa uma area cultivada.
 
@@ -78,7 +78,7 @@ Representa uma area cultivada.
 | `id_cultura`   | int (FK) | Tipo de cultura cultivada        |
 | `localizacao`  | varchar  | Ponto geografico ou nome da area |
 
-### 🔹 Ajuste
+### Ajuste
 
 Representa acoes realizadas com base nos dados dos sensores.
 
@@ -92,7 +92,7 @@ Representa acoes realizadas com base nos dados dos sensores.
 
 ---
 
-## 🔗 Relacionamentos
+## Relacionamentos
 
 | Entidade A | Entidade B | Tipo   | Observacao                                  |
 | ---------- | ---------- | ------ | ------------------------------------------- |
@@ -104,13 +104,13 @@ Representa acoes realizadas com base nos dados dos sensores.
 
 ---
 
-## 🧐 Destaque tecnico: Sensor adicional moderno
+## Destaque tecnico: Sensor adicional moderno
 
 Incluimos no modelo um **sensor de temperatura do solo**, pratica moderna na agricultura de precisao, que permite prever melhor a absorcao de nutrientes e a necessidade de irrigacao. Isso traz valor estrategico e aumenta o realismo da modelagem proposta.
 
 ---
 
-## 📎 Arquivos do repositório
+## Arquivos do repositório
 
 - `modelo.dmd` → Modelo criado no SQL Developer Data Modeler
 - `diagrama.png` → Imagem do DER para visualizacao rapida
@@ -118,6 +118,6 @@ Incluimos no modelo um **sensor de temperatura do solo**, pratica moderna na agr
 
 ---
 
-## 📜 Licenca
+## Licenca
 
 Uso academico, sob orientacao da FIAP.
