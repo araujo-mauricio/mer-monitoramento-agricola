@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Cultura → Plantacao" directorySegmentName="seg_0" id="59540AE9-6026-8512-389C-3311FCDC4817">
+<createdBy>dimen</createdBy>
+<createdTime>2025-04-22 20:53:51 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="2179676C-6113-542B-D19A-F8A021E4A8D5" value="true"/>
+</engineerTo>
+<sourcePk>4C7FFF0A-D5DA-F118-110B-937D39989BB9</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4F8FB0DA-25C4-27DE-C025-ABBDF12B2B46</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>D2A243B9-7F4F-09D0-CC02-89220561E2C6</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

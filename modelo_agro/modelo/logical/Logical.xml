@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="17921634-3DD5-9CF2-76A2-D2EEC37A314A" mainViewID="B202B252-C6D1-1BB6-EF72-40A906DF022F">
+<createdBy>dimen</createdBy>
+<createdTime>2025-04-22 14:35:40 UTC</createdTime>
+<ownerDesignName>Fase2_Sistema-de-Monitoramento</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

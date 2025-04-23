@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="74D972C2-7F1B-6C9D-C3D3-EE06D8BB6C0A" name="Leitura">
+<createdBy>dimen</createdBy>
+<createdTime>2025-04-22 21:28:32 UTC</createdTime>
+<generatorID>114C7652-D063-6B20-0587-B7DAEA9F9015</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_leitura" id="8BFAC2A3-B9DC-C0C1-5F7B-5EB3061369D8">
+<createdBy>dimen</createdBy>
+<createdTime>2025-04-22 21:28:32 UTC</createdTime>
+<generatorID>F1D9040D-702D-CB3B-7C66-0BB3AC09A1FB</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_sensor" id="E8EC2A87-6D14-4644-C02B-1FD1B79030DC">
+<createdBy>dimen</createdBy>
+<createdTime>2025-04-22 21:28:32 UTC</createdTime>
+<generatorID>5FA030C1-A936-F24C-D96C-848E1EA848CC</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_talhao" id="A0C84240-767B-C6AD-36F6-8481272F6A05">
+<createdBy>dimen</createdBy>
+<createdTime>2025-04-22 22:10:55 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_hora" id="A0ACBFC5-E325-4D9D-CFA7-6783D97F0C59">
+<createdBy>dimen</createdBy>
+<createdTime>2025-04-22 21:28:32 UTC</createdTime>
+<generatorID>4DDE54C8-849E-E85E-EDEA-D4F59CD4BDA9</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valor" id="DF514B7D-4A67-3E84-6AF9-059868DB9994">
+<createdBy>dimen</createdBy>
+<createdTime>2025-04-22 21:28:32 UTC</createdTime>
+<generatorID>D2CC7026-9FD6-E413-4E2A-6C48D3FC4838</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,6,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Sensor_id_sensor" id="5ACB6DB2-585E-D2C0-59F2-D1FD2D9D363A">
+<createdBy>dimen</createdBy>
+<createdTime>2025-04-22 21:28:32 UTC</createdTime>
+<generatorID>6AF7A5F6-45A5-92F2-3C86-F4E85C67DB9C</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EFDDB4B0-4625-95E8-92B2-790E4A8893A8" referredColumn="DA07177A-BDCB-74B0-DA27-A05E24777AAC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E79E94F9-55DF-7267-4865-6BD576B98E37" name="Leitura_PK">
+<createdBy>dimen</createdBy>
+<createdTime>2025-04-22 21:28:32 UTC</createdTime>
+<generatorID>DD8F9F3E-0BC1-B1DA-6596-2FF5EB354A12</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8BFAC2A3-B9DC-C0C1-5F7B-5EB3061369D8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8504B601-E537-0E66-15E3-FA9460CCF5EB" name="Leitura_Sensor_FK">
+<createdBy>dimen</createdBy>
+<createdTime>2025-04-22 21:28:32 UTC</createdTime>
+<generatorID>198168F6-8816-DD08-B1DB-20AF78A9012F</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5ACB6DB2-585E-D2C0-59F2-D1FD2D9D363A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

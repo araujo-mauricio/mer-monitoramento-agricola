@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Produtor → Talhao" directorySegmentName="seg_0" id="303A390C-7C98-9E1E-163C-8C957582D353">
+<createdBy>dimen</createdBy>
+<createdTime>2025-04-22 20:54:44 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="2179676C-6113-542B-D19A-F8A021E4A8D5" value="true"/>
+</engineerTo>
+<sourcePk>2B23B3FA-C138-6E12-891C-E599DAF5C136</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>64B58E2C-64E0-B021-5291-77E016ECDDFB</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8D9AAFF7-B441-F465-FCA9-4353CBABBBD5</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

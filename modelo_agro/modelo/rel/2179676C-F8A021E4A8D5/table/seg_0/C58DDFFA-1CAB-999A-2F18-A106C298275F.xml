@@ -1,0 +1,147 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C58DDFFA-1CAB-999A-2F18-A106C298275F" name="Cultura">
+<createdBy>dimen</createdBy>
+<createdTime>2025-04-22 21:28:32 UTC</createdTime>
+<generatorID>4F8FB0DA-25C4-27DE-C025-ABBDF12B2B46</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_cultura" id="EC628B50-223C-4D76-EDFD-28E86613E4D5">
+<createdBy>dimen</createdBy>
+<createdTime>2025-04-22 21:28:32 UTC</createdTime>
+<generatorID>C5450557-750C-131C-5142-88904C30837F</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="08857767-53B7-6E12-DEC0-884312A7599D">
+<createdBy>dimen</createdBy>
+<createdTime>2025-04-22 21:28:32 UTC</createdTime>
+<generatorID>B2EC332B-985A-FAC6-C80E-06C468ACDBC0</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo" id="27E7446D-C0A5-5144-7F1C-2480BF29AA15">
+<createdBy>dimen</createdBy>
+<createdTime>2025-04-22 21:28:32 UTC</createdTime>
+<generatorID>B3A6446F-2E22-13E4-E114-451F29061172</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ciclo" id="93154A17-DFB7-C0FE-74B2-F99393C4350D">
+<createdBy>dimen</createdBy>
+<createdTime>2025-04-22 22:05:59 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cultura_Produtor_id_cultura" id="3B9F2CA8-02F5-283D-0AE5-ED291E6DF716">
+<createdBy>dimen</createdBy>
+<createdTime>2025-04-22 21:28:32 UTC</createdTime>
+<generatorID>D8AB82DD-F5BF-BADC-EFF2-6F0CBF7BFDD4</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2C60D024-6B8C-C0F1-30EE-6A570C3E9580" referredColumn="E2AD63FF-4A93-3900-CC43-30866D47F259"/>
+</associations>
+</Column>
+<Column name="Cultura_Produtor_id_produtor" id="69F45EBD-6E1A-CF41-F60A-5DAEE47A0E3E">
+<createdBy>dimen</createdBy>
+<createdTime>2025-04-22 21:28:32 UTC</createdTime>
+<generatorID>E5A71E5E-94BD-68DF-21DF-5D97DC3F7A65</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2C60D024-6B8C-C0F1-30EE-6A570C3E9580" referredColumn="F9FC4B23-26C3-D8DA-3E99-1E622F8927A3"/>
+</associations>
+</Column>
+<Column name="Talhão_Cultura_id_talhao" id="E6E0290B-5059-734B-A65A-75EA056D3080">
+<createdBy>dimen</createdBy>
+<createdTime>2025-04-22 22:22:52 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6E5BDB13-BA41-0662-2D10-926B550DC910" referredColumn="EF545869-1DF0-4769-41A3-4C1243AE5114"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D7D5D7CF-8E1C-5645-D28C-EC97883B6145" name="Cultura_PK">
+<createdBy>dimen</createdBy>
+<createdTime>2025-04-22 21:28:32 UTC</createdTime>
+<generatorID>4C7FFF0A-D5DA-F118-110B-937D39989BB9</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EC628B50-223C-4D76-EDFD-28E86613E4D5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8B2AAA66-4964-0782-60FF-C33837DD4498" name="Cultura_Cultura_Produtor_FK">
+<createdBy>dimen</createdBy>
+<createdTime>2025-04-22 21:28:32 UTC</createdTime>
+<generatorID>11883A0E-33A1-36A6-DB8A-8E7391BFB23E</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3B9F2CA8-02F5-283D-0AE5-ED291E6DF716"/>
+<colUsage columnID="69F45EBD-6E1A-CF41-F60A-5DAEE47A0E3E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ECDA08E1-7988-9DF9-D6B1-826647ED0086" name="Cultura_Talhão_Cultura_FK">
+<createdBy>dimen</createdBy>
+<createdTime>2025-04-22 22:22:52 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E6E0290B-5059-734B-A65A-75EA056D3080"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<impliedForeignKeys itemClass="oracle.dbtools.crest.model.design.relational.ImpliedForeignKey">
+<impliedForeignKey name="ImpliedForeignKey_1" id="36926157-7BAF-8F2A-D4B9-99B8AEE48BCC">
+<createdBy>dimen</createdBy>
+<createdTime>2025-04-22 21:29:09 UTC</createdTime>
+<ownerDesignName>Fase2_Sistema-de-Monitoramento</ownerDesignName>
+<referredTableID>E2422D56-CBDE-29E8-F304-15991A1B56A5</referredTableID>
+<referredTableLongName>Cultura_Produtor</referredTableLongName>
+</impliedForeignKey>
+</impliedForeignKeys>
+</Table>

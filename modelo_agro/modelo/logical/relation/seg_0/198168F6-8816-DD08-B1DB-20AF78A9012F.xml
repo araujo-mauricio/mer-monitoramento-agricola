@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Sensor → Leitura" directorySegmentName="seg_0" id="198168F6-8816-DD08-B1DB-20AF78A9012F">
+<createdBy>dimen</createdBy>
+<createdTime>2025-04-22 20:47:08 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="2179676C-6113-542B-D19A-F8A021E4A8D5" value="true"/>
+</engineerTo>
+<sourcePk>083CCA99-6283-9921-94F0-5DB71A907AF4</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>D93F0FA7-7319-C8F6-BD03-94BD408CA832</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>114C7652-D063-6B20-0587-B7DAEA9F9015</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

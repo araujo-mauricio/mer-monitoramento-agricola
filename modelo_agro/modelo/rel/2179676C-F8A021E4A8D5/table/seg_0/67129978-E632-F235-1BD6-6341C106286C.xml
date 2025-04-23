@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="67129978-E632-F235-1BD6-6341C106286C" name="Sensor">
+<createdBy>dimen</createdBy>
+<createdTime>2025-04-22 21:28:32 UTC</createdTime>
+<generatorID>D93F0FA7-7319-C8F6-BD03-94BD408CA832</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_sensor" id="DA07177A-BDCB-74B0-DA27-A05E24777AAC">
+<createdBy>dimen</createdBy>
+<createdTime>2025-04-22 21:28:32 UTC</createdTime>
+<generatorID>6CFF14A3-49A4-D222-44ED-D7E788496C2D</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo_sensor" id="DF678DCA-4AD6-6E3C-4D58-CDCB478C998E">
+<createdBy>dimen</createdBy>
+<createdTime>2025-04-22 21:28:32 UTC</createdTime>
+<generatorID>EC05037E-9059-2415-7B0B-D019F1FB32CA</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="modelo" id="2C2DE9DE-CD52-83BA-9166-B71FEA373AD8">
+<createdBy>dimen</createdBy>
+<createdTime>2025-04-22 21:28:32 UTC</createdTime>
+<generatorID>39E2811E-7D78-F4AE-73DB-BDF531B30801</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="unidade_medida" id="1779E25E-AEBB-AED4-7CE2-986CE4B33B3A">
+<createdBy>dimen</createdBy>
+<createdTime>2025-04-22 21:28:32 UTC</createdTime>
+<generatorID>CB63C86E-7989-FE7B-3039-5FD0DFC65453</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descricao" id="E9969CA1-C167-151D-B23D-209BA35645B6">
+<createdBy>dimen</createdBy>
+<createdTime>2025-04-22 22:11:41 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<ownDataTypeParameters>200 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A05BB5CF-DD0D-734F-3D51-B79E6F2EBC10" name="Sensor_PK">
+<createdBy>dimen</createdBy>
+<createdTime>2025-04-22 21:28:32 UTC</createdTime>
+<generatorID>083CCA99-6283-9921-94F0-5DB71A907AF4</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DA07177A-BDCB-74B0-DA27-A05E24777AAC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

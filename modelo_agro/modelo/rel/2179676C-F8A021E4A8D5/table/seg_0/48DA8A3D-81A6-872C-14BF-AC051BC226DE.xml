@@ -1,0 +1,135 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="48DA8A3D-81A6-872C-14BF-AC051BC226DE" name="Produtor">
+<createdBy>dimen</createdBy>
+<createdTime>2025-04-22 21:28:32 UTC</createdTime>
+<generatorID>64B58E2C-64E0-B021-5291-77E016ECDDFB</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_produtor" id="D0BD24D1-F7AE-A1AA-E8F8-518FE3F6E182">
+<createdBy>dimen</createdBy>
+<createdTime>2025-04-22 21:28:32 UTC</createdTime>
+<generatorID>B434C625-3CB0-207A-F352-094921EFBAB5</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="869E57CA-B369-F102-7E81-0B50D6B89AAB">
+<createdBy>dimen</createdBy>
+<createdTime>2025-04-22 21:28:32 UTC</createdTime>
+<generatorID>EE53C1E9-1AF2-16EF-8076-93F1E3B621F0</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cpf" id="CB7CDEBF-4D8B-CEF4-9969-FC22CA288DFC">
+<createdBy>dimen</createdBy>
+<createdTime>2025-04-22 21:57:56 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="A6F23AF9-6E12-3D29-E9AC-E8AFEB2690BC">
+<createdBy>dimen</createdBy>
+<createdTime>2025-04-22 21:28:32 UTC</createdTime>
+<generatorID>87A1A77D-E26D-803E-4E59-93E563662E70</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefone" id="290C310E-3297-5133-CAF2-E2092FB98892">
+<createdBy>dimen</createdBy>
+<createdTime>2025-04-22 21:28:32 UTC</createdTime>
+<generatorID>1DE27DEE-142A-A54E-4135-DF43DCF5D0E7</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Cultura_Produtor_id_cultura" id="91515155-1540-8CFC-8714-668CCE971051">
+<createdBy>dimen</createdBy>
+<createdTime>2025-04-22 21:28:32 UTC</createdTime>
+<generatorID>E793457A-1B5C-AC5F-7684-A7C1F4FDA56F</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AA893533-5068-5B41-59C7-86F86F9D445B" referredColumn="E2AD63FF-4A93-3900-CC43-30866D47F259"/>
+</associations>
+</Column>
+<Column name="Cultura_Produtor_id_produtor" id="BD544AFB-74DA-7BBA-E1A4-BDEE86C91A49">
+<createdBy>dimen</createdBy>
+<createdTime>2025-04-22 21:28:32 UTC</createdTime>
+<generatorID>16AA91B6-0A69-5970-8518-62209D024071</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AA893533-5068-5B41-59C7-86F86F9D445B" referredColumn="F9FC4B23-26C3-D8DA-3E99-1E622F8927A3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5396D52D-41B3-8950-2B04-F8CC8260F2D5" name="Produtor_PK">
+<createdBy>dimen</createdBy>
+<createdTime>2025-04-22 21:28:32 UTC</createdTime>
+<generatorID>2B23B3FA-C138-6E12-891C-E599DAF5C136</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D0BD24D1-F7AE-A1AA-E8F8-518FE3F6E182"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="41ABF5D8-E833-7C19-8063-B8D886290965" name="Produtor_Cultura_Produtor_FK">
+<createdBy>dimen</createdBy>
+<createdTime>2025-04-22 21:28:32 UTC</createdTime>
+<generatorID>E928DD98-3AA2-3249-C108-D513BCFB40B2</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="91515155-1540-8CFC-8714-668CCE971051"/>
+<colUsage columnID="BD544AFB-74DA-7BBA-E1A4-BDEE86C91A49"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<impliedForeignKeys itemClass="oracle.dbtools.crest.model.design.relational.ImpliedForeignKey">
+<impliedForeignKey name="ImpliedForeignKey_1v1" id="449EA1BE-4BD8-91BB-791B-6F7A35ADF4C1">
+<createdBy>dimen</createdBy>
+<createdTime>2025-04-22 21:29:42 UTC</createdTime>
+<ownerDesignName>Fase2_Sistema-de-Monitoramento</ownerDesignName>
+<referredTableID>E2422D56-CBDE-29E8-F304-15991A1B56A5</referredTableID>
+<referredTableLongName>Cultura_Produtor</referredTableLongName>
+</impliedForeignKey>
+</impliedForeignKeys>
+</Table>

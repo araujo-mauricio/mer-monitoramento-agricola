@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="64B58E2C-64E0-B021-5291-77E016ECDDFB" name="Produtor">
+<createdBy>dimen</createdBy>
+<createdTime>2025-04-22 15:16:42 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="2179676C-6113-542B-D19A-F8A021E4A8D5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_produtor" id="B434C625-3CB0-207A-F352-094921EFBAB5">
+<createdBy>dimen</createdBy>
+<createdTime>2025-04-22 15:16:46 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="2179676C-6113-542B-D19A-F8A021E4A8D5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="EE53C1E9-1AF2-16EF-8076-93F1E3B621F0">
+<createdBy>dimen</createdBy>
+<createdTime>2025-04-22 15:17:07 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="2179676C-6113-542B-D19A-F8A021E4A8D5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="87A1A77D-E26D-803E-4E59-93E563662E70">
+<createdBy>dimen</createdBy>
+<createdTime>2025-04-22 15:17:22 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="2179676C-6113-542B-D19A-F8A021E4A8D5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefone" id="1DE27DEE-142A-A54E-4135-DF43DCF5D0E7">
+<createdBy>dimen</createdBy>
+<createdTime>2025-04-22 15:17:36 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="2179676C-6113-542B-D19A-F8A021E4A8D5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_cultura" id="E793457A-1B5C-AC5F-7684-A7C1F4FDA56F">
+<createdBy>dimen</createdBy>
+<createdTime>2025-04-22 21:12:16 UTC</createdTime>
+<generatorID>E928DD98-3AA2-3249-C108-D513BCFB40B2</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="2179676C-6113-542B-D19A-F8A021E4A8D5" value="true"/>
+</engineerTo>
+<referedAttribute>13AB0AF5-1782-59FE-F05D-2C2FF441A40E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_produtor1" id="16AA91B6-0A69-5970-8518-62209D024071">
+<createdBy>dimen</createdBy>
+<createdTime>2025-04-22 21:12:16 UTC</createdTime>
+<generatorID>E928DD98-3AA2-3249-C108-D513BCFB40B2</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="2179676C-6113-542B-D19A-F8A021E4A8D5" value="true"/>
+</engineerTo>
+<referedAttribute>E50C0760-C648-791E-5A1E-D8759181329C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2B23B3FA-C138-6E12-891C-E599DAF5C136" name="Produtor PK">
+<createdBy>dimen</createdBy>
+<createdTime>2025-04-22 15:16:59 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="2179676C-6113-542B-D19A-F8A021E4A8D5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B434C625-3CB0-207A-F352-094921EFBAB5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

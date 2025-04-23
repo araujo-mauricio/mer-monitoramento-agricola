@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Cultura_Produtor → Produtor (N:1)" directorySegmentName="seg_0" id="E928DD98-3AA2-3249-C108-D513BCFB40B2">
+<createdBy>dimen</createdBy>
+<createdTime>2025-04-22 21:12:16 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="2179676C-6113-542B-D19A-F8A021E4A8D5" value="true"/>
+</engineerTo>
+<sourcePk>159A01CE-E04C-766C-0F88-0E822EE6E3B8</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>791C9FBE-A819-074F-4314-621F3D533776</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>64B58E2C-64E0-B021-5291-77E016ECDDFB</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

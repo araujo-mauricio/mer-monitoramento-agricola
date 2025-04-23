@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4F8FB0DA-25C4-27DE-C025-ABBDF12B2B46" name="Cultura">
+<createdBy>dimen</createdBy>
+<createdTime>2025-04-22 15:15:22 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="2179676C-6113-542B-D19A-F8A021E4A8D5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_cultura" id="C5450557-750C-131C-5142-88904C30837F">
+<createdBy>dimen</createdBy>
+<createdTime>2025-04-22 15:15:33 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="2179676C-6113-542B-D19A-F8A021E4A8D5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="B2EC332B-985A-FAC6-C80E-06C468ACDBC0">
+<createdBy>dimen</createdBy>
+<createdTime>2025-04-22 15:15:44 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="2179676C-6113-542B-D19A-F8A021E4A8D5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo" id="B3A6446F-2E22-13E4-E114-451F29061172">
+<createdBy>dimen</createdBy>
+<createdTime>2025-04-22 15:16:04 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="2179676C-6113-542B-D19A-F8A021E4A8D5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_cultura1" id="D8AB82DD-F5BF-BADC-EFF2-6F0CBF7BFDD4">
+<createdBy>dimen</createdBy>
+<createdTime>2025-04-22 21:11:51 UTC</createdTime>
+<generatorID>11883A0E-33A1-36A6-DB8A-8E7391BFB23E</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="2179676C-6113-542B-D19A-F8A021E4A8D5" value="true"/>
+</engineerTo>
+<referedAttribute>13AB0AF5-1782-59FE-F05D-2C2FF441A40E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_produtor" id="E5A71E5E-94BD-68DF-21DF-5D97DC3F7A65">
+<createdBy>dimen</createdBy>
+<createdTime>2025-04-22 21:11:51 UTC</createdTime>
+<generatorID>11883A0E-33A1-36A6-DB8A-8E7391BFB23E</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="2179676C-6113-542B-D19A-F8A021E4A8D5" value="true"/>
+</engineerTo>
+<referedAttribute>E50C0760-C648-791E-5A1E-D8759181329C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4C7FFF0A-D5DA-F118-110B-937D39989BB9" name="Cultura PK">
+<createdBy>dimen</createdBy>
+<createdTime>2025-04-22 15:15:42 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="2179676C-6113-542B-D19A-F8A021E4A8D5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C5450557-750C-131C-5142-88904C30837F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

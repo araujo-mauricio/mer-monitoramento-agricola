@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="modelo" id="5F875BF0-901D-A342-2FF4-D62906B00F6C" version="3.5">
+<createdBy>dimen</createdBy>
+<createdTime>2025-04-22 14:35:40 UTC</createdTime>
+<ownerDesignName>Fase2_Sistema-de-Monitoramento</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>5F875BF0-901D-A342-2FF4-D62906B00F6C</designId>
+</OSDM_Design>

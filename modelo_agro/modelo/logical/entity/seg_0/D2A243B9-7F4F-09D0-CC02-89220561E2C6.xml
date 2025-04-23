@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D2A243B9-7F4F-09D0-CC02-89220561E2C6" name="Plantacao">
+<createdBy>dimen</createdBy>
+<createdTime>2025-04-22 15:17:57 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="2179676C-6113-542B-D19A-F8A021E4A8D5" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_plantacao" id="8720C142-AAF8-2FDC-7B2C-7441C231AD0C">
+<createdBy>dimen</createdBy>
+<createdTime>2025-04-22 15:18:13 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="2179676C-6113-542B-D19A-F8A021E4A8D5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_produtor" id="1819A291-8663-DB72-3297-50F433654B8B">
+<createdBy>dimen</createdBy>
+<createdTime>2025-04-22 15:18:22 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="2179676C-6113-542B-D19A-F8A021E4A8D5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_cultura" id="EBD55285-0CC4-ACEE-3856-29202A0B0B85">
+<createdBy>dimen</createdBy>
+<createdTime>2025-04-22 15:18:43 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="2179676C-6113-542B-D19A-F8A021E4A8D5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="localizacao" id="9F8E789E-3240-E053-FF4A-5AEB1360AA2A">
+<createdBy>dimen</createdBy>
+<createdTime>2025-04-22 15:18:56 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="2179676C-6113-542B-D19A-F8A021E4A8D5" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_cultura1" id="CEF4A4C5-7522-19A7-D5FE-DBFED1D2959D">
+<createdBy>dimen</createdBy>
+<createdTime>2025-04-22 20:53:51 UTC</createdTime>
+<generatorID>59540AE9-6026-8512-389C-3311FCDC4817</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="2179676C-6113-542B-D19A-F8A021E4A8D5" value="true"/>
+</engineerTo>
+<referedAttribute>C5450557-750C-131C-5142-88904C30837F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_produtor1" id="777FD658-1466-A7D4-A183-B4A9469EAEF3">
+<createdBy>dimen</createdBy>
+<createdTime>2025-04-22 20:54:20 UTC</createdTime>
+<generatorID>AFFC4AC9-3E88-B948-FA65-AE2879CDA812</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="2179676C-6113-542B-D19A-F8A021E4A8D5" value="true"/>
+</engineerTo>
+<referedAttribute>B434C625-3CB0-207A-F352-094921EFBAB5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_talhao" id="3DC4878A-D338-E77B-1E0F-DF016E09CE3E">
+<createdBy>dimen</createdBy>
+<createdTime>2025-04-22 21:08:36 UTC</createdTime>
+<generatorID>A18927AF-48BA-E0A4-BFCB-52034C10D8DD</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="2179676C-6113-542B-D19A-F8A021E4A8D5" value="true"/>
+</engineerTo>
+<referedAttribute>43803EB7-46C8-7848-15DA-7B2905318862</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5306FB09-FE55-8E5D-0B03-7AFE0BFE97AF" name="Plantacao PK">
+<createdBy>dimen</createdBy>
+<createdTime>2025-04-22 15:18:20 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="2179676C-6113-542B-D19A-F8A021E4A8D5" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8720C142-AAF8-2FDC-7B2C-7441C231AD0C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

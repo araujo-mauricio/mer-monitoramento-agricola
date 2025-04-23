@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="CC0340BB-B89A-5D2D-25D8-04299D42F7C7" containerWithKeyObject="0D7BC686-85BD-F7F1-6C50-1F16F5FF339C" localFKIndex="18E371D4-DD9E-BA2B-BAA0-33E38D770AE8" name="Talhao_Produtor_FK">
+<createdBy>dimen</createdBy>
+<createdTime>2025-04-22 21:28:32 UTC</createdTime>
+<generatorID>303A390C-7C98-9E1E-163C-8C957582D353</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<referredTableLongName>Produtor</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>48DA8A3D-81A6-872C-14BF-AC051BC226DE</referredTableID>
+<keyObject>5396D52D-41B3-8950-2B04-F8CC8260F2D5</keyObject>
+<referredKeyID>5396D52D-41B3-8950-2B04-F8CC8260F2D5</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_produtor</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

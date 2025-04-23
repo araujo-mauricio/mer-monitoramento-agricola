@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="6E5BDB13-BA41-0662-2D10-926B550DC910" containerWithKeyObject="C58DDFFA-1CAB-999A-2F18-A106C298275F" localFKIndex="ECDA08E1-7988-9DF9-D6B1-826647ED0086" name="Cultura_Talhão_Cultura_FK">
+<createdBy>dimen</createdBy>
+<createdTime>2025-04-22 22:22:52 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<referredTableLongName>Talhão_Cultura</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8DB6DB6D-6898-78E2-E747-DE1800C83A35</referredTableID>
+<keyObject>1A14E088-612D-BD0B-1FBE-01F35D9F079D</keyObject>
+<referredKeyID>1A14E088-612D-BD0B-1FBE-01F35D9F079D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_talhao</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
